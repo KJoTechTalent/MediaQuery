@@ -1,16 +1,57 @@
 body{
+    background-color: rgb(141, 194, 255);
     width: 100vw;
     height: 100vh;
+    margin: 0px;
+    
 }
-.orangeBox{
-
+#orangeBoxesContainer{
+    background-color: #00ffd5;
 }
-.yellowBox {
-
+.orange{
+    background-color: orange;
+    width: 50%;
+    height: 150px;
 }
-.blueBox{
-
+#yellowBoxContainer{
+    background-color: #00ffd5;
+}
+.yellow{
+    background-color: yellow;
+    width: 100%;
+    height: 180px;
+}
+#blueBoxesContainer{
+    background-color: #00ffd5;
+}
+.blue{  
+    background-color: rgb(0, 183, 255);
+    width: 33%;
+    height: 150px;
+}
+#greyBoxesContainer{
+    background-color: #00ffd5;
 }
 .greyBox{
-
+    background-color: grey;
+    width: 25%;
+    height: 150px;
+}
+.size{
+    width: 95vw;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+@media screen and (max-width:320px){
+    .size{
+        display: flex;
+        flex-direction: column;
+    }
+    .orange{
+        
+    }
 }
